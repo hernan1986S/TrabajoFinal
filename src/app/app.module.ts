@@ -19,7 +19,9 @@ import { StoreModule } from '@ngrx/store';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { environment } from '../environments/environment';
 import { HttpClientModule} from '@angular/common/http';
-import { LoginComponent } from './login/login.component'
+
+import { InicioComponent } from './components/inicio/inicio.component';
+import { DashboardComponent } from './components/dashboard/dashboard.component'
 
 
 
@@ -34,8 +36,10 @@ import { LoginComponent } from './login/login.component'
     NavbarComponent,
 
     SignupComponent,
-    
-    LoginComponent,
+
+
+         InicioComponent,
+         DashboardComponent,
 
   ],
   imports: [
